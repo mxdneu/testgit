@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: dimgrey;
+    /*width: 100%;*/
+}
+.box{
+    margin-top: 120px;
+    margin-right: 60px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: url(image/loading.gif) no-repeat center ;
+    background-size: 400px 400px;
+    float: left;
+}
+.box img{
+    width: 400px;
+    height: 400px;
+}
+.box span,.box p{
+    position: absolute;
+    left: 0px;
+    background: black;
+    color: white;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+}
+.box span{
+    font: 24px/40px "微软雅黑";
+    top: 0px;
+}
+.box p{
+    font: 24px/40px "宋体";
+    bottom: 0px;
+}
+.box ul{
+    position: absolute;
+    top: 0px;
+    right: -50px;
+}
+.box li{
+    width: 40px;
+    height: 40px;
+    background-color: darkgrey;
+    margin-top: 5px;
+    list-style: none;
+}
+.box .active{
+    background-color: aquamarine;
+}
