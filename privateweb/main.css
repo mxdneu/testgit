@@ -1,0 +1,252 @@
+.clearfix:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul{
+    margin: 0;
+}
+nav{
+    background-color:transparent;
+    height: 50px;
+}
+#banner {
+    background-color: transparent;
+    height:700px;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    float:right;
+}
+nav ul li,nav .logo{
+    display:inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+nav ul li a{
+    line-height: 50px;
+    text-decoration:none;
+    display:inline-block;
+    height: inherit;/*为了让点击区域时可以实现跳转 inherit继承了母元素的高度*/
+    color:#fff;
+}
+nav ul li.logo{
+    float:left;
+    padding: 10px;
+}
+
+#banner .inner{
+    max-width: 300px;/*为了使其可以居中*/
+    text-align:center;
+    margin:0 auto;/*上下边距为0左右边距为自动适配*/
+    position: relative;
+    top:280px;
+}
+#banner .inner h1{
+    margin:0;
+}
+button{
+    border: none;
+    color:#eee;
+    padding:10px 14px;
+    background-color: deepskyblue;
+}
+#banner .inner .more{
+    margin-top:150px;
+}
+.sub-heading{
+    line-height:30px;
+    margin: 30px;
+    font-size: 20px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.green-section{
+    text-align: center;
+    background-color: #089Db0;
+    color:#fff;
+    padding:100px 0;
+}
+.wrapper{
+    max-width: 1000px;
+    margin:0 auto;
+}
+h2{
+    font-size: 30px;
+    display: inline;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+
+}
+.hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+.green-section .hr{
+        background-color: royalblue;
+        width: 60%;
+}
+.icon-group{
+    margin-top:60px;
+}
+.green-section .icon-group .icon{
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    background-color:#056565;
+    transform: rotate(45deg);
+    margin:25px;
+}
+
+.gray-section{
+    background-color: #01101F;
+    color:#fff;
+}
+.gray-section .image-section{
+    width: 45%;
+}
+
+.image-section img{
+    width: 100%;
+}
+
+.gray-section .text-section{
+    width: 55%;
+}
+
+.article-preview > div{
+    float: left;
+    font-size: 0;
+}
+
+.article-preview:nth-child(odd){
+    background-color: rgba(255,255,255,0.05);/*奇偶选择器*/
+}
+.article-preview:after{
+    content: "";
+    display: block;
+    clear:both;
+}/*为了清除浮动的效果，使父级元素的属性可以显示*/
+
+.text-section{
+    position: relative;
+    top:70px;
+    left: 25px;
+}
+.text-section h2{
+    margin-bottom: 20px;
+}
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.text-section > *{
+    max-width: 90%;
+}
+
+.purple-section{
+    background-color: #262149;
+    color:#fff;
+    padding: 80px;
+}
+
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+
+.purple-section .hr{
+    background-color: #000000;
+    width: 60%;
+}
+
+.card{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding:50px;
+    box-sizing: border-box;
+}
+
+.card p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+
+}
+
+.card:first-child{
+    background-color: rgba(0,0,0,0.25);
+}
+
+.card:nth-child(2){
+    background-color: rgba(0,0,0,0.30);
+}
+
+.card:nth-child(3){
+    background-color: rgba(0,0,0,0.35);
+}
+.card:nth-child(4){
+    background-color: rgba(0,0,0,0.40);
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    min-height:150px;
+    text-align: center;
+
+}
+
+.wrapper li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.copy{
+    margin: 20px;
+    padding: 20px;
+}
+
+.main-wrapper{
+    background: #444 url(images/pic4.png);
+    background-attachment: fixed;/*固定图片不让浮动*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#btn{
+    background: url(images/5.png) left top;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left:95%;
+    bottom: 30px;
+}
+
+#btn:hover{
+    background: url(images/5.png) no-repeat left -46px;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: white;
+    font: 14px "宋体";
+}
